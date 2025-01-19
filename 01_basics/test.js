@@ -7,7 +7,7 @@ let user1={
 }
 
 let user2=user1
-user2.age=23
+user2.age=24
 
 
 console.log(user1,user2)
