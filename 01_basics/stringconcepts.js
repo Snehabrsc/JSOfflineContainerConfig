@@ -30,3 +30,10 @@ const gameName=new String('githubnew')
 
 
 console.log(gameName.includes("git"))
+
+const anotherString=new String("Enter_to_comit")
+
+const arrString=anotherString.split("_")
+console.log(arrString)
+
+
