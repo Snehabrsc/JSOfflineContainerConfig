@@ -50,6 +50,18 @@ const users=[
     }
 ]
 
-console.log(users[2].email)
+// console.log(users[2].email)
 
-console.log(myObj)
+// console.log(myObj)
+
+// console.log(Object.keys(myObj));
+// console.log(Object.values(myObj))
+
+// console.log(Object.keys(userObj))
+// console.log(Object.values(userObj))
+
+// console.log(Object.entries(userObj));
+
+console.log(myObj.hasOwnProperty("isLoggedIn"))
+
+console.log(users[0].hasOwnProperty("id"))
