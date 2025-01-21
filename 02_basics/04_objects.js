@@ -62,6 +62,23 @@ const users=[
 
 // console.log(Object.entries(userObj));
 
-console.log(myObj.hasOwnProperty("isLoggedIn"))
+// console.log(myObj.hasOwnProperty("isLoggedIn"))
 
-console.log(users[0].hasOwnProperty("id"))
+// console.log(users[0].hasOwnProperty("id"))
+
+
+///Destructuring////
+
+
+const course={
+    coursename :"JS",
+    price :"599",
+    Instructor :"Sob"
+}
+
+// const {coursename,price,Instructor: Ins}=course
+// console.log(coursename,price,Ins);
+
+
+const {name :user,isLoggedIn: online}=myObj
+console.log(user,online)
