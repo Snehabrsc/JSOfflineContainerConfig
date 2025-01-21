@@ -81,4 +81,4 @@ const course={
 
 
 const {name :user,isLoggedIn: online}=myObj
-console.log(user,online)
+console.log(user,online) 
