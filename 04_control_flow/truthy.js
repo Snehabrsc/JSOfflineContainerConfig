@@ -45,4 +45,12 @@ if (iceTeaprice>=20 ? console.log("true") : console.log("false")) {
     
 }
 
+const cost=5??10
+const chknull=null ?? 10
+const chkundefined=undefined ?? 15
+
+console.log(cost)
+console.log(chknull);
+console.log((chkundefined));
+
 
