@@ -37,3 +37,12 @@ const emptyobj={}
 // Truthy value
 
 // [], "0", 'false', " ", {}, function(){}
+
+
+
+const iceTeaprice=100
+if (iceTeaprice>=20 ? console.log("true") : console.log("false")) {
+    
+}
+
+
