@@ -25,6 +25,10 @@ newmap.set('04','MP')
 
 //console.log(newmap)
 
-for (const [key,value] of newmap) {
-    console.log(key,value)
-}
+// for (const [key,value] of newmap) {
+//     console.log(key,value)
+// }
+
+// for (const [key] in newmap) {
+//     console.log(key)
+// }  Map is non iterable
