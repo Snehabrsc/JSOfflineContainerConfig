@@ -30,10 +30,19 @@ addLanguage('jquery')
 
 const editli=document.querySelector('li:nth-child(2)')
 const li=document.createElement('li')
-li.createTextNode="Data Science"
+li.textContent="Data Science"
 editli.appendChild(li)
 
 
+function addli(liname){
+    
+const addli=document.createElement('li')
+addli.appendChild(document.createTextNode(`${liname}`))
+document.querySelector('.language').appendChild(addli)
+}
+
+
+addli('mongodb')
 
 
 
