@@ -28,11 +28,22 @@ addLanguage('jquery')
 
 //edit
 
-const editli=document.querySelector('li:nth-child(2)')
-const li=document.createElement('li')
-li.textContent="Data Science"
-editli.appendChild(li)
+// const editli=document.querySelector('li:nth-child(2)')
+// const li=document.createElement('li')
+// li.textContent="Data Science"
+// editli.appendChild(li)
 
+
+//edit
+
+const updateli=document.querySelector('li:nth-child(3)')
+const li=document.createElement('li')
+li.textContent="newlang"
+updateli.replaceWith(li)
+
+
+
+//add
 
 function addli(liname){
     
@@ -45,6 +56,14 @@ document.querySelector('.language').appendChild(addli)
 addli('mongodb')
 
 
+
+//remove
+
+const removeli=document.querySelector('li:last-child')
+removeli.remove()
+
+const firstli=document.querySelector('li:first-child')
+firstli.remove()
 
 
 </script>
