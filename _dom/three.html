@@ -22,15 +22,33 @@
     const addtext=document.createTextNode("Hi Dom")
     div.appendChild(addtext)
 
-    // const addnode=document.createElement('h1')
+    const h1=document.createElement('h1')
+    h1.appendChild(document.createTextNode('Hello H1'))
 
-    
-   
-    // addnode.style.color='green'
-   
+    div.appendChild(h1)
 
-    //addnode.setAttribute("title","I am h1")
-    // div.appendChild(addnode)
+
+    const h2=document.createElement('h2')
+
+    h2.appendChild(document.createTextNode('Hi H2'))
+
+    div.appendChild(h2)
+
+
+    const p=document.createElement('p')
+    p.appendChild(document.createTextNode('Lorem dggdhhjm jahsd jkdshgshbd....'))
+
+    p.style.color="aqua"
+
+    div.appendChild(p)
+
+
+
+
+
+
+
+
 
     document.body.appendChild(div)
     
